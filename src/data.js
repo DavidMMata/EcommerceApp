@@ -21,3 +21,56 @@ export const sliderItems = [
     bg: "f5f1ed",
   },
 ];
+
+export const catagories = [
+  {
+    id: 1,
+    img: "http://acnhapi.com/v1/images/villagers/11",
+    title: "Shirt",
+  },
+  {
+    id: 2,
+    img: "http://acnhapi.com/v1/images/villagers/22",
+    title: "Pants",
+  },
+  {
+    id: 3,
+    img: "http://acnhapi.com/v1/images/villagers/33",
+    title: "Tools",
+  },
+];
+
+export const popularProducts = [
+  {
+    id: 1,
+    img: "https://acnhapi.com/v1/images/fish/11",
+  },
+  {
+    id: 2,
+    img: "https://acnhapi.com/v1/images/fish/2",
+  },
+  {
+    id: 3,
+    img: "https://acnhapi.com/v1/images/fish/3",
+  },
+  {
+    id: 4,
+    img: "https://acnhapi.com/v1/images/fish/4",
+  },
+  {
+    id: 5,
+    img: "https://acnhapi.com/v1/images/fish/5",
+  },
+  {
+    id: 6,
+    img: "https://acnhapi.com/v1/images/fish/6",
+  },
+  {
+    id: 7,
+    img: "https://acnhapi.com/v1/images/fish/7",
+  },
+  {
+    id: 8,
+    img: "https://acnhapi.com/v1/images/fish/8",
+  },
+];
