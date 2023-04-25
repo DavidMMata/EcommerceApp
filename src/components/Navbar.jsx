@@ -73,7 +73,7 @@ const Navbar = () => {
           </SearchContainer>
         </Left>
         <Center>
-          <Logo>ChingonMan.</Logo>
+          <Logo>AC Store.</Logo>
         </Center>
         <Right>
           <MenuItem>
