@@ -1,5 +1,14 @@
+import styled from "styled-components";
+import Navbar from "../components/Navbar";
+
+const Container = styled.div``;
+
 const ProductList = () => {
-  return <div>ProductList</div>;
+  return (
+    <Container>
+      <Navbar />
+    </Container>
+  );
 };
 
 export default ProductList;

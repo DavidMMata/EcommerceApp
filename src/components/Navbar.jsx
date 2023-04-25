@@ -1,9 +1,6 @@
 import { Search, ShoppingCartOutlined } from "@material-ui/icons";
-import React from "react";
 import styled from "styled-components";
 import Badge from "@material-ui/core/Badge";
-
-//import SearchIcon from "@mui/icons-material/Search";
 
 const Container = styled.div`
   height: 60px;
@@ -18,7 +15,7 @@ const Wrapper = styled.div`
 const Left = styled.div`
   flex: 1;
   display: flex;
-  aligned-item: center;
+  align-items: center;
 `;
 
 const Language = styled.span`
@@ -29,7 +26,7 @@ const Language = styled.span`
 const SearchContainer = styled.div`
   border: 0.5px solid lightgray;
   display: flex;
-  align-items: centered;
+  align-items: center;
   margin-left: 25px;
   padding: 5px;
 `;
@@ -45,7 +42,7 @@ const Center = styled.div`
 
 const Logo = styled.div`
   font-weight: bold;
-  aligned-item: center;
+  align-items: center;
 `;
 
 const Right = styled.div`
