@@ -19,7 +19,7 @@ const Arrow = styled.div`
   border-radius: 50%;
   display: flex;
   align-items: center;
-  justify-contetn: center;
+  justify-content: center;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -76,7 +76,7 @@ const Button = styled.button`
   cursor: pointer;
 `;
 
-export const Slider = () => {
+const Slider = () => {
   const [slideIndex, setSlideindex] = useState(0);
   const handleClick = (direction) => {
     if (direction === "left") {
@@ -112,3 +112,5 @@ export const Slider = () => {
     </Container>
   );
 };
+
+export default Slider;

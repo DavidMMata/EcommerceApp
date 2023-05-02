@@ -1,6 +1,7 @@
+import { Badge } from "@material-ui/core";
 import { Search, ShoppingCartOutlined } from "@material-ui/icons";
+import React from "react";
 import styled from "styled-components";
-import Badge from "@material-ui/core/Badge";
 
 const Container = styled.div`
   height: 60px;
@@ -9,6 +10,7 @@ const Container = styled.div`
 const Wrapper = styled.div`
   padding: 10px 20px;
   display: flex;
+  align-items: center;
   justify-content: space-between;
 `;
 
@@ -40,11 +42,9 @@ const Center = styled.div`
   text-align: center;
 `;
 
-const Logo = styled.div`
+const Logo = styled.h1`
   font-weight: bold;
-  align-items: center;
 `;
-
 const Right = styled.div`
   flex: 1;
   display: flex;
@@ -65,19 +65,18 @@ const Navbar = () => {
         <Left>
           <Language>EN</Language>
           <SearchContainer>
-            <Input />
+            <Input placeholder="Search" />
             <Search style={{ color: "gray", fontSize: 16 }} />
           </SearchContainer>
         </Left>
         <Center>
-          <Logo>AC Store.</Logo>
+          <Logo>AC STORE</Logo>
         </Center>
         <Right>
+          <MenuItem>REGISTER</MenuItem>
+          <MenuItem>SIGN IN</MenuItem>
           <MenuItem>
-            <MenuItem>REGISTER</MenuItem>
-            <MenuItem>SIGN IN</MenuItem>
             <Badge badgeContent={4} color="primary">
-              Shopping Cart
               <ShoppingCartOutlined />
             </Badge>
           </MenuItem>

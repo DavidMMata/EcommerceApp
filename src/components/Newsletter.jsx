@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { Send } from "@material-ui/icons";
 
 const Container = styled.div`
-  height: 60;
+  height: 60vh;
   background-color: orange;
   display: flex;
   align-items: center;
@@ -12,11 +12,11 @@ const Container = styled.div`
 const Title = styled.h1`
   font-size: 70px;
   margin-bottom: 20px;
-  font-weight: 300;
-  margin-bottom: 20px;
 `;
 const Desc = styled.div`
   font-size: 24px;
+  font-weight: 300;
+  margin-bottom: 20px;
 `;
 
 const InputContainer = styled.div`
